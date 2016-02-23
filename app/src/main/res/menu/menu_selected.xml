@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/action_settings" android:title="@string/action_settings"
+        android:orderInCategory="100" android:showAsAction="never" />
+
+
+
+    <item android:id="@+id/action_edit"
+        android:icon="@drawable/ic_edit_grey600_24dp"
+        android:title="Éditer"
+        android:showAsAction="always"/>
+
+    <item
+        android:id="@+id/action_discard"
+        android:icon="@drawable/ic_action_discard"
+        android:title="Supprimer"
+        android:showAsAction="always"/>
+
+</menu>

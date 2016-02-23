@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="72dp"
+    android:descendantFocusability="blocksDescendants"
+    android:background="?android:attr/activatedBackgroundIndicator"
+    android:id="@+id/relative_layout_row">
+
+    <TextView
+        android:id="@+id/pondExamenRow"
+        android:layout_width="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:layout_height="26dip"
+        android:ellipsize="marquee"
+        android:singleLine="true"
+        android:text="Pond. : "
+        android:layout_below="@+id/nomExamenRow"
+        android:layout_toRightOf="@+id/textView11"
+        android:layout_toEndOf="@+id/textView11"
+        android:textSize="14sp"
+        android:layout_marginRight="16dp" />
+
+    <TextView
+        android:id="@+id/nomExamenRow"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:layout_alignWithParentIfMissing="true"
+        android:gravity="center_vertical"
+        android:text="Nom examen"
+        android:textSize="16sp"
+        android:layout_alignTop="@+id/resultatExamenRow"
+        android:layout_toRightOf="@+id/resultatExamenRow"
+        android:layout_toEndOf="@+id/resultatExamenRow"
+        android:layout_marginLeft="16dp" />
+
+    <TextView
+        android:layout_width="60dp"
+        android:layout_height="40dp"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="--%"
+        android:id="@+id/resultatExamenRow"
+        android:autoText="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:textSize="16dp"
+        android:gravity="center_vertical|center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Pondération : "
+        android:id="@+id/textView11"
+        android:layout_below="@+id/nomExamenRow"
+        android:layout_alignLeft="@+id/nomExamenRow"
+        android:layout_alignStart="@+id/nomExamenRow"
+        android:textSize="14sp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Résultat"
+        android:id="@+id/textView12"
+        android:layout_above="@+id/resultatExamenRow"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="16dp" />
+
+</RelativeLayout>

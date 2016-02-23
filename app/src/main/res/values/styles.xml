@@ -1,0 +1,16 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+    <color name="primaryBlue">#009688</color>
+    <color name="redAddButton">#f44336</color>
+    <color name="rougeSousLaNoteDePassage">#f44336</color>
+    <color name="vertAuDessusDeLaNoteDePassage">#4caf50</color>
+    <color name="LightBlue500Primary">#03a9f4</color>
+    <color name="LightBlue100">#b3e5fc</color>
+    <color name="LightBlue200">#81d4fa</color>
+    <color name="LightBlue800">#0277bd</color>
+
+</resources>

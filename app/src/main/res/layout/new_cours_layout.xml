@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="280dp" android:layout_height="match_parent">
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_newCours_nom"
+        android:layout_marginRight="24dp"
+        android:layout_below="@+id/textView_Dialog_NomCours"
+        android:layout_alignLeft="@+id/textView_Dialog_NomCours"
+        android:layout_alignStart="@+id/textView_Dialog_NomCours"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Nom"
+        android:id="@+id/textView_Dialog_NomCours"
+        android:layout_marginLeft="24dp"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Numéro de cours"
+        android:id="@+id/textView_Dialog_noCours"
+        android:layout_below="@+id/editText_newCours_nom"
+        android:layout_alignLeft="@+id/editText_newCours_nom"
+        android:layout_alignStart="@+id/editText_newCours_nom"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editText_NewCoursDialog_num"
+        android:layout_below="@+id/textView_Dialog_noCours"
+        android:layout_alignLeft="@+id/textView_Dialog_noCours"
+        android:layout_alignStart="@+id/textView_Dialog_noCours"
+        android:layout_marginRight="24dp"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Note de passage"
+        android:id="@+id/textView_NewCoursdialog_notePass"
+        android:layout_below="@+id/editText_NewCoursDialog_num"
+        android:layout_alignLeft="@+id/editText_NewCoursDialog_num"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:layout_width="64dp"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/editText_NewCoursDialog_notePass"
+        android:layout_below="@+id/textView_NewCoursdialog_notePass"
+        android:layout_alignLeft="@+id/textView_NewCoursdialog_notePass"
+        android:layout_alignStart="@+id/textView_NewCoursdialog_notePass"
+        android:layout_marginTop="8dp" />
+
+</RelativeLayout>
